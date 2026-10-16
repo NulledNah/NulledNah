@@ -1,5 +1,5 @@
 <div><img src="assets/bar-top.e8b2ad67.svg" width="840" align="absbottom" alt=""></div>
-<div><a href="https://github.com/NulledNah"><img src="assets/host.e2ea9301.svg" width="840" align="absbottom" alt="NulledNah"></a></div>
+<div><a href="https://github.com/NulledNah"><img src="assets/host.dc6497f6.svg" width="840" align="absbottom" alt="NulledNah"></a></div>
 <div><a href="https://www.univr.it/"><img src="assets/role.c67ed87d.svg" width="840" align="absbottom" alt="CS student @ University of Verona"></a></div>
 <div><img src="assets/focus.16fdec3f.svg" width="840" align="absbottom" alt="focus"></div>
 <div><img src="assets/stack.18d846af.svg" width="840" align="absbottom" alt="stack"></div>
