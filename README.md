@@ -1,17 +1,12 @@
-`nulledv2@fedora`
-
-`role` — CS student @ [University of Verona](https://www.univr.it/)<br>
-`focus` — systems · tooling · desktop apps<br>
-`stack` — python · typescript · javascript · assembly · zig
-
-<img src="assets/bar.svg" width="880" alt="">
-
-**projects**
-
-- **[LightMCP](https://github.com/NulledNah/LightMCP)** — local LLM-powered semantic tool router for MCP
-- **[PcRemote](https://github.com/NulledNah/PcRemote)** — use your phone as a full PC remote
-- **[FastDownload](https://github.com/NulledNah/FastDownload)** — audio → [FL Studio](https://www.image-line.com/fl-studio/) project folder (VST3 + desktop)
-- **[FileCompactor](https://github.com/NulledNah/FileCompactor)** — adaptive compressor in Zig (beats xz 4.03×)
-- **[DeepSeekPanel](https://github.com/NulledNah/DeepSeekPanel)** — DeepSeek usage panel for the [OpenCode](https://opencode.ai) desktop app
-- **[FreelancerSync](https://github.com/NulledNah/FreelancerSync)** — Freelancer bid-sync button for [OpenCode](https://opencode.ai)
-- **[E_ASM](https://github.com/NulledNah/E_ASM)** — x86 production scheduler · [UniVR](https://www.univr.it/) lab
+<div><a href="https://github.com/NulledNah"><img src="assets/host.svg" width="880" alt="nulledv2@fedora"></a></div>
+<div><a href="https://www.univr.it/"><img src="assets/role.svg" width="880" alt="CS student @ University of Verona"></a></div>
+<div><img src="assets/focus.svg" width="880" alt="focus"></div>
+<div><img src="assets/stack.svg" width="880" alt="stack"></div>
+<div><a href="https://github.com/NulledNah/LightMCP"><img src="assets/lightmcp.svg" width="880" alt="LightMCP"></a></div>
+<div><a href="https://github.com/NulledNah/PcRemote"><img src="assets/pcremote.svg" width="880" alt="PcRemote"></a></div>
+<div><a href="https://github.com/NulledNah/FastDownload"><img src="assets/fastdownload.svg" width="880" alt="FastDownload"></a></div>
+<div><a href="https://github.com/NulledNah/FileCompactor"><img src="assets/filecompactor.svg" width="880" alt="FileCompactor"></a></div>
+<div><a href="https://github.com/NulledNah/DeepSeekPanel"><img src="assets/deepseekpanel.svg" width="880" alt="DeepSeekPanel"></a></div>
+<div><a href="https://github.com/NulledNah/FreelancerSync"><img src="assets/freelancersync.svg" width="880" alt="FreelancerSync"></a></div>
+<div><a href="https://github.com/NulledNah/E_ASM"><img src="assets/e_asm.svg" width="880" alt="E_ASM"></a></div>
+<div><img src="assets/bar.svg" width="880" alt=""></div>
