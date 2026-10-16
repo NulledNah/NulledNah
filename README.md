@@ -1,7 +1,7 @@
 `nulledv2@fedora`
 
-`role` — CS student @ [University of Verona](https://www.univr.it/)
-`focus` — systems · tooling · desktop apps
+`role` — CS student @ [University of Verona](https://www.univr.it/)<br>
+`focus` — systems · tooling · desktop apps<br>
 `stack` — python · typescript · javascript · assembly · zig
 
 <img src="assets/bar.svg" width="880" alt="">
