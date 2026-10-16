@@ -1,4 +1,4 @@
-<div><a href="https://github.com/NulledNah"><img src="assets/host.7e8b3211.svg" width="840" align="absbottom" alt="nulledv2@fedora"></a></div>
+<div><a href="https://github.com/NulledNah"><img src="assets/host.38031810.svg" width="840" align="absbottom" alt="NulledNah"></a></div>
 <div><a href="https://www.univr.it/"><img src="assets/role.99e11917.svg" width="840" align="absbottom" alt="CS student @ University of Verona"></a></div>
 <div><img src="assets/focus.4dab46bb.svg" width="840" align="absbottom" alt="focus"></div>
 <div><img src="assets/stack.c2e705dc.svg" width="840" align="absbottom" alt="stack"></div>
