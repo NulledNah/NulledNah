@@ -70,13 +70,14 @@ function descOf(key, apiDesc) {
 }
 
 async function listRepos() {
-  const res = await fetch(`https://api.github.com/users/${USER}/repos?per_page=100&type=owner`, {
-    headers: {
-      'Accept': 'application/vnd.github+json',
-      'X-GitHub-Api-Version': '2022-11-28',
-      'User-Agent': 'profile-generator',
-    },
-  });
+  const token = process.env.GITHUB_TOKEN;
+  const headers = {
+    'Accept': 'application/vnd.github+json',
+    'X-GitHub-Api-Version': '2022-11-28',
+    'User-Agent': 'profile-generator',
+  };
+  if (token) headers.Authorization = `Bearer ${token}`;
+  const res = await fetch(`https://api.github.com/users/${USER}/repos?per_page=100&type=owner`, { headers });
   if (!res.ok) throw new Error(`GitHub API ${res.status}`);
   return res.json();
 }
