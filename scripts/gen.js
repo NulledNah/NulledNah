@@ -83,7 +83,7 @@ async function listRepos() {
 
 function sortByStars(list) {
   return list.slice().sort((a, b) =>
-    (b.stars - a.stars) || a.key.localeCompare(b.key));
+    (b.stars - a.stars) || a.key.toLowerCase().localeCompare(b.key.toLowerCase()));
 }
 
 (async () => {
@@ -91,7 +91,7 @@ function sortByStars(list) {
   const repos = all
     .filter(r => !r.fork && !r.archived && r.name !== PROFILE_REPO)
     .map(r => ({
-      key: r.name.toLowerCase(),
+      key: r.name,
       name: r.name,
       stars: r.stargazers_count || 0,
       desc: descOf(r.name.toLowerCase(), r.description),
