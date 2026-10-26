@@ -202,7 +202,7 @@ const byStars = list => list.slice().sort((a, b) =>
   const emptyFile = write('view-empty', '<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"></svg>\n');
 
   const rows = entries.map((e, i) => {
-    const file = write(e.t === 'host' ? 'host' : e.t === 'section' ? 'sec-' + e.label.toLowerCase().replace(/\s+/g, '-') : e.t === 'bar' ? 'bar' : e.key.toLowerCase().replace(/[^a-z0-9_-]/g, '-'), desktopSvg(e));
+    const file = write(e.t === 'host' ? 'host' : e.t === 'section' ? 'sec-' + e.label.toLowerCase().replace(/\s+/g, '-') : e.t === 'bar' ? 'bar' : e.key.replace(/[^A-Za-z0-9_-]/g, '-'), desktopSvg(e));
     const img = `<img src="assets/${file}" align="absbottom" alt="${esc(altOf(e))}">`;
     // first element carries the mobile panel; the rest are hidden on mobile
     const src = i === 0 ? ABS + mobileFile : ABS + emptyFile;
